@@ -1,0 +1,28 @@
+{
+  "name": "nfl-api",
+  "version": "1.0.0",
+  "description": "## Instructions In the initial commit to this project, you have been provided data about NFL teams. Over the course of the next couple of classes we will use this data to build up a REST API. These exercises will be completed in class.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyPiersonCodes/nfl-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyPiersonCodes/nfl-api/issues"
+  },
+  "homepage": "https://github.com/andyPiersonCodes/nfl-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "nodemon": "^2.0.6"
+  }
+}
